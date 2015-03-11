@@ -5,7 +5,7 @@ require 'mysql2'
 class Dbconnector
   def initialize()
     #puts "hello"
-    @@client = Mysql2::Client.new(host: 'XXXXXXX', username: 'otokunaga', password: 'lifelog', database: 'beacontext')
+    @@client = Mysql2::Client.new(host: 'XXXXXXX', username: 'alice', password: 'alice_pass', database: 'beacontext')
     #puts @@client 
   end
   #get location by userid
